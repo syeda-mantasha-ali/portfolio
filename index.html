@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>3D Protfolio Wedsides HTML CSS and Javascript | Syead Mantasha Ali</title>
+   <link rel="stylesheet" href="style.css">
+   <!-- box icons -->
+   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+   <div class="wrapper">
+
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right"></div>
+
+      <div class="book">
+         <!-- profile page -->
+         <div class="book-page page-left">
+            <div class="profile-page">
+               <div class="profile-img">
+
+                  <img src="img/Mantasha.png" alt="">
+               </div>
+               <h1>Mantasha</h1>
+               <h3>Web Developer</h3>
+
+               <div class="social-media">
+                  <a href="#"><i class="bx bxl-facebook" type="submit" onmouseover="iconClick.play()"></i></a>
+                  <a href="#"><i class="bx bxl-twitter" type="submit" onmouseover="iconClick.play()"></i></a>
+                  <a href="#"><i class="bx bxl-linkedin" type="submit" onmouseover="iconClick.play()"></i></a>
+                  <a href="#"><i class="bx bxl-instagram-alt" type="submit" onmouseover="iconClick.play()"></i></a>
+               </div>
+
+               <p>Hi, I am Mantasha, a 8-year-old web developer with a passion for coding! I've learned HTML, CSS,
+                  JavaScript, and TypeScript, and I'm currently diving into React and Tailwind CSS. I'm excited to
+                  create amazing web experiences and bring my ideas to life through code.</p>
+
+               <div class="btn-box">
+                  <a href="#" class="btn">Download CV</a>
+                  <a href="#" class="btn contact-me" onmousedown="contact.play()">Contact Me</a>
+               </div>
+            </div>
+
+         </div>
+
+         <!-- page 1 & 2 -->
+         <div class="book-page page-right turn" id="turn-1">
+
+            <!-- page 1 (education) -->
+            <div class="page-front">
+               <h1 class="title">Education</h1>
+
+               <div class="workeduc-box">
+
+                  <div class="workeduc-content">
+                     <span class="year"><i class="bx bxs-calendar"></i>2019 - 2023</span>
+                     <h3>Class 2 - Primary School</h3>
+                     <p>Primary School
+                        Class 2
+                        I'm currently studying in Class 2, where I enjoy learning about different subjects and
+                        developing my problem-solving skills.</p>
+                  </div>
+
+                  <div class="workeduc-content">
+                     <span class="year"><i class="bx bxs-calendar"></i>2023 - 2025</span>
+                     <h3>Web Development - GIAIC </h3>
+                     <p>I'm also enrolled in the GIAIC program, where I'm learning web development. So far, I've
+                        mastered HTML, CSS, JavaScript, and TypeScript, and I'm now exploring React and Tailwind CSS to
+                        enhance my skills.</p>
+                  </div>
+               </div>
+
+               <span class="number-page">1</span>
+
+               <!-- next button -->
+               <span class="nextprev-btn" data-page="turn-1">
+                  <i class="bx bx-chevron-right" type="submit" onmousedown="pageTurn.play()"></i>
+               </span>
+            </div>
+
+            <!-- page 2 (my skills) -->
+            <div class="page-back">
+               <h1 class="skills-title">My Skills</h1>
+
+               <div class="skills-box">
+                  <div class="skills-content">
+                     <div class="content">
+                        <span><i class="bx bxl-html5"></i>HTML</span>
+                        <span><i class="bx bxl-css3"></i>CSS</span>
+                        <span><i class="bx bxl-javascript"></i>JS</span>
+                        <span><i class="bx bxl-typescript"></i>TS</span>
+                        <span><i class="bx bxl-react"></i>React</span>
+                        <span><i class="bx bxl-tailwind-css"></i>Tailwind</span>
+                     </div>
+                  </div>
+               </div>
+
+               <span class="number-page">2</span>
+
+               <!-- prev button -->
+               <span class="nextprev-btn back" data-page="turn-1">
+                  <i class="bx bx-chevron-left" type="submit" onmousedown="pageTurn.play()"></i>
+               </span>
+            </div>
+         </div>
+
+         <!-- page 3 & 4 -->
+         <div class="book-page page-right turn" id="turn-2">
+            <!-- page 3 (my services) -->
+            <div class="page-front">
+               <h1 class="title">My Services</h1>
+
+               <div class="services-box">
+                  <div class="services-content">
+                     <i class="bx bx-code-alt"></i>
+                     <h3>Web Developer</h3>
+                     <a href="https://github.com/syeda-mantasha-ali/netflix" class="btn">Read More</a>
+                  </div>
+
+                  <div class="services-content">
+                     <i class="bx bx-paint"></i>
+                     <h3>Wed Designer</h3>
+                     <a href="https://github.com/syeda-mantasha-ali/3d-animation" class="btn">Read More</a>
+                  </div>
+
+                  <div class="services-content">
+                     <i class='bx bx-movie-play'></i>
+                     <h3>Video Editer</h3>
+                     <a href="https://youtu.be/Lzn-GDFWgyg?si=ASc--rl-qFSPhQuQ" class="btn">Read More</a>
+                  </div>
+
+                  <div class="services-content">
+                     <i class='bx bx-microphone'></i>
+                     <h3>Voice Over</h3>
+                     <a href="#" class="btn">Read More</a>
+                  </div>
+               </div>
+
+               <span class="number-page">3</span>
+
+               <span class="nextprev-btn front" data-page="turn-2">
+                  <i class="bx bx-chevron-right" type="submit" onmousedown="pageTurn.play()"></i>
+               </span>
+            </div>
+
+            <!-- page 4 (my game) -->
+            <div class="page-back">
+               <h1 class="title">Car Game</h1>
+
+               <div class="portfolio-box">
+                  <div class="img-box">
+                     <img src="img/car-game.png" alt="">
+                  </div>
+
+                  <div class="info-box">
+                     <div class="info-title">
+                        <h3>Car Game</h3>
+                        <a href="https://syeda-mantasha-ali.github.io/car-game/" target="_blank">Live preview <i
+                              class="bx bx-link-external"></i></a>
+                     </div>
+                     <p>Tech Used:</p>
+                     <p>I built a car game using HTML, CSS, and JavaScript, where players can control a car and navigate
+                        through obstacles. </p>
+                  </div>
+
+                  <div class="btn-box">
+                     <a href="https://github.com/syeda-mantasha-ali/my-car-game" class="btn" target="_blank">Source
+                        Code</a>
+                     <a href="https://github.com/syeda-mantasha-ali/" class="btn" target="_blank">More Projects</a>
+                  </div>
+               </div>
+
+               <span class="number-page">4</span>
+
+               <span class="nextprev-btn back" data-page="turn-2">
+                  <i class="bx bx-chevron-left" type="submit" onmousedown="pageTurn.play()"></i>
+               </span>
+            </div>
+
+         </div>
+
+         <!-- page 5 & 6 -->
+         <div class="book-page page-right turn" id="turn-3">
+            <!-- page 5 (latest project or my portfolio) -->
+            <div class="page-front">
+               <h1 class="title">Latest Project</h1>
+
+               <div class="portfolio-box">
+                  <div class="img-box">
+                     <img src="img/netfilex.png" alt="">
+                  </div>
+
+                  <div class="info-box">
+                     <div class="info-title">
+                        <h3>Netflix</h3>
+                        <a href="https://syeda-mantasha-ali.github.io/netflix/" target="_blank">Live preview<i
+                              class="bx bx-link-external"></i></a>
+                     </div>
+                     <p>Tech Used:</p>
+                     <p>I created a Netflix clone using HTML and CSS, closely replicating the original UI to enhance my
+                        front-end skills. </p>
+                  </div>
+
+                  <div class="btn-box">
+                     <a href="https://github.com/syeda-mantasha-ali/netflix" class="btn" target="_blank">Source Code</a>
+                     <a href="https://github.com/syeda-mantasha-ali/" class="btn" target="_blank">More Projects</a>
+                  </div>
+               </div>
+
+               <span class="number-page">5</span>
+
+               <span class="nextprev-btn front" data-page="turn-3">
+                  <i class="bx bx-chevron-right" type="submit" onmousedown="pageTurn.play()"></i>
+               </span>
+            </div>
+
+            <!-- page 6 (contact me) -->
+            <div class="page-back">
+               <h1 class="title">Contact Me!</h1>
+
+               <div class="contact-box">
+                  <form action="#">
+                     <input type="text" class="field" placeholder="Full Name" required>
+                     <input type="email" class="field" placeholder="Email Address" required>
+                     <textarea name="" id="" cols="30" rows="10" class="field" placeholder="Your Message"
+                        required></textarea>
+                     <input type="submit" onmousedown="contact.play()" class="btn" value="Send Message">
+                  </form>
+               </div>
+
+               <span class="number-page">6</span>
+
+               <!-- prev button -->
+               <span class="nextprev-btn back turn" data-page="turn-3">
+                  <i class="bx bx-chevron-left" type="submit" onmousedown="pageTurn.play()"></i>
+               </span>
+
+               <a href="#" class="back-profile">
+                  <p>Profile</p>
+                  <i class="bx bxs-user"></i>
+               </a>
+            </div>
+         </div>
+
+      </div>
+   </div>
+   <script src="./main.js"></script>
+</body>
+
+</html>
